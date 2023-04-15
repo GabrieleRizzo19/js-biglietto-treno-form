@@ -30,6 +30,9 @@ send_button.addEventListener("click", function(){
         }
         price = price.toFixed(2);
         console.log("Prezzo:  " + price);
+
+        document.getElementById("nome-passeggero").innerHTML = `${nome}`;
+        document.getElementById("price").innerHTML = `${price}`;
     }
 
 })

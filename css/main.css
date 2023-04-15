@@ -1,0 +1,13 @@
+body{
+    background-color: greenyellow;
+}
+
+@media screen and (min-width:992px) {
+    .my-input{
+        width: 33%;
+    }
+
+    .my-input-button{
+        width: 20%;
+    }
+}
